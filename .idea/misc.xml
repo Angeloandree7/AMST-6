@@ -3,8 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/rcadena/AndroidStudioProjects/AMST6/app/src/main/res/drawable/ic_launcher_background.xml" value="0.204" />
+        <entry key="..\:/Users/rcadena/AndroidStudioProjects/AMST6/app/src/main/res/layout/activiti_main2.xml" value="0.19375" />
         <entry key="..\:/Users/rcadena/AndroidStudioProjects/AMST6/app/src/main/res/layout/activity_formulario_registro.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/rcadena/AndroidStudioProjects/AMST6/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/rcadena/AndroidStudioProjects/AMST6/app/src/main/res/layout/activity_navigation.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/rcadena/AndroidStudioProjects/AMST6/app/src/main/res/layout/fragment_dashboard.xml" value="0.19375" />
+        <entry key="..\:/Users/rcadena/AndroidStudioProjects/AMST6/app/src/main/res/layout/fragment_home.xml" value="0.19375" />
+        <entry key="..\:/Users/rcadena/AndroidStudioProjects/AMST6/app/src/main/res/layout/fragment_notifications.xml" value="0.19375" />
+        <entry key="..\:/Users/rcadena/AndroidStudioProjects/AMST6/app/src/main/res/layout/navigation.xml" value="0.19375" />
+        <entry key="..\:/Users/rcadena/AndroidStudioProjects/AMST6/app/src/main/res/layout/navigation_menu.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/rcadena/AndroidStudioProjects/AMST6/app/src/main/res/menu/bottom_nav_menu.xml" value="0.19375" />
       </map>
     </option>
   </component>
