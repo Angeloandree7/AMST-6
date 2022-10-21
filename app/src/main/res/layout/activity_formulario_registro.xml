@@ -67,6 +67,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+
             <TextView
                 android:id="@+id/txtEdad"
                 android:layout_width="wrap_content"
@@ -120,9 +121,10 @@
             <TextView
                 android:id="@+id/txtEmail"
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Email:"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"/>
+
             <EditText
                 android:id="@+id/editEmail"
                 android:layout_width="wrap_content"
