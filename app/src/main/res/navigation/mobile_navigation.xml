@@ -20,6 +20,11 @@
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.amst6.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_video"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_grafic"
+        android:name="com.example.amst6.ui.grafic.GraficFragment"
+        android:label="@string/title_grafic"
+        tools:layout="@layout/fragment_grafic" />
 </navigation>

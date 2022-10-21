@@ -1,6 +1,5 @@
 package com.example.amst6;
 import android.content.Intent;
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText txtNombre, txtApellido, txtUsuario, txtPasswd;
     private Button btnLogin, btnRegistro;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -31,11 +29,9 @@ public class MainActivity extends AppCompatActivity {
         txtPasswd = (EditText) findViewById(R.id.txtPasswd);
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnRegistro = (Button) findViewById(R.id.btnRegistro);
-
         map.put("rcadena","123456");
         map.put("tangelo","123456");
         map.put("admin","admin");
-
     }
     public void registrarse(View view) {
         Intent intent = new Intent(this, formulario_registro.class);

@@ -29,9 +29,7 @@
             android:layout_gravity="center_horizontal"
             android:paddingLeft="15dip"
             android:paddingRight="15dip"
-
         android:onClick="login"/>
-
         <Button android:id="@+id/btnRegistro"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
@@ -39,8 +37,6 @@
             android:layout_gravity="center_horizontal"
             android:paddingLeft="15dip"
             android:paddingRight="15dip"
-
         android:onClick="registrarse"/>
-
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

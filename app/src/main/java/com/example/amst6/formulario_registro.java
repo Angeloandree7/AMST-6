@@ -1,6 +1,5 @@
 package com.example.amst6;
 
-
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -17,9 +16,7 @@ public class formulario_registro extends AppCompatActivity {@Override
 protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_formulario_registro);
 }
-
     //insertarpaciente
-
     public void insertarpaciente(View v) {
         addNotification();
     }
@@ -35,10 +32,8 @@ protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanc
                             .setSmallIcon(R.drawable.aa)
                             .setContentTitle("Se ha registrado con exito")
                             .setContentText("Revise su correo electronico en los proximos 2 dias")
-
                                             .setAutoCancel(true)
                                             .setPriority(NotificationCompat.PRIORITY_DEFAULT);
-
             Intent notificationIntent = new Intent(this,
                     formulario_registro.class);
             notificationIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

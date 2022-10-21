@@ -1,16 +1,16 @@
-package com.example.amst6.ui.notifications;
+package com.example.amst6.ui.grafic;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
-public class NotificationsViewModel extends ViewModel {
+public class GraficViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public NotificationsViewModel() {
+    public GraficViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is video fragment");
+        mText.setValue("This is grafic fragment");
     }
 
     public LiveData<String> getText() {
